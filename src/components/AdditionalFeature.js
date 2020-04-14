@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const AdditionalFeature = props => {
   return (
     <li>
@@ -10,4 +11,4 @@ const AdditionalFeature = props => {
   );
 };
 
-export default AdditionalFeature;
+export default AdditionalFeature
