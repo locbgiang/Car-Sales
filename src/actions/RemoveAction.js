@@ -1,4 +1,4 @@
-export const removeFeature = index => {
-    return { type: 'REMOVE_FEATURE', payload: index };
+export const removeFeature = payload => {
+    return { type: 'REMOVE_FEATURE', payload: payload };
 };
   

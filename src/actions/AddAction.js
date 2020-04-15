@@ -1,4 +1,3 @@
-export const addFeature = index => {
-    return { type: 'ADD_FEATURE', payload: index };
+export const addFeature = payload => {
+    return { type: 'ADD_FEATURE', payload: payload };
 };
-  
